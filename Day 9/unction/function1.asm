@@ -21,7 +21,7 @@ a db ?
    
   proc read
    mov ah,01h
-   int 21h ;3
+   int 21h ;3 only show 3
    mov a,al ;al=48+3=51
    ret
    endp
